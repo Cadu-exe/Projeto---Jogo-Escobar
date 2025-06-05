@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo Escobar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game">
+    <img src="imagens/carro.png" id="carro" />
+  </div>
+
+  <div id="placar">Pontuação: <span id="pontuacao">0</span></div>
+
+  <div id="gameOverScreen" class="hidden">
+    <h1>Game Over!</h1>
+    <p>Sua pontuação: <span id="finalScore">0</span></p>
+    <button onclick="reiniciarJogo()">Jogar Novamente</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
